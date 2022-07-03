@@ -79,7 +79,7 @@ rtpAddress: :8000
 # Address of the UDP/RTCP listener. This is needed only when "udp" is in protocols.
 rtcpAddress: :8001
 # IP range of all UDP-multicast listeners. This is needed only when "multicast" is in protocols.
-multicastIPRange: 224.1.0.0/16
+multicastIPRange: 10.128.0.0/9
 # Port of all UDP-multicast/RTP listeners. This is needed only when "multicast" is in protocols.
 multicastRTPPort: 8002
 # Port of all UDP-multicast/RTCP listeners. This is needed only when "multicast" is in protocols.
